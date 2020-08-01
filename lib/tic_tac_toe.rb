@@ -109,4 +109,10 @@ class TicTacToe
     end
     end
   end
+  
+  def play
+    turn until over?
+    
+    if won?
+      return "Congratulations "
 end
